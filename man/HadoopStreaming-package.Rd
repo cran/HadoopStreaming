@@ -14,8 +14,8 @@ without Hadoop.
 \tabular{ll}{
 Package: \tab HadoopStreaming\cr
 Type: \tab Package\cr
-Version: \tab 0.1\cr
-Date: \tab 2009-03-16\cr
+Version: \tab 0.2\cr
+Date: \tab 2009-09-28\cr
 License: \tab GNU \cr
 LazyLoad: \tab yes\cr
 }
@@ -46,7 +46,7 @@ In addition to the data reading functions, the function
 doing things such as specifying an input file, the number of lines of
 input to read, the input and output column separators, etc.
 The \code{hsCmdLineArgs} function also facilitates packaging both the mapper
-and reducer scripts into a single R script by accept arguments
+and reducer scripts into a single R script by accepting arguments
 --mapper and --reducer to specify whether the call to the script
 should execute the mapper branch or the reducer.
 
@@ -60,9 +60,6 @@ and the README file there.
 }
 \author{ David S. Rosenberg <drosen@sensenetworks.com> }
 \keyword{ package }
-\seealso{
-  \code{\link[RHIPE:RHIPE-package]{RHIPE}} 
-}
 \examples{
 ## STEP 1: MAKE A CONNECTION
 
